@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: black;
+    background-image: url('../img/img-generar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.outfit-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.outfit-container h1,
+.outfit-container h2 {
+    color: black;
+    text-align: center;
+}
+
+.outfit-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.outfit-list li {
+    margin: 10px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.outfit-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.outfit-list li img {
+    width: 100px;
+    height: 150px;
+    object-fit: scale-down;
+    margin-bottom: 10px;
+}
+
+.outfit-list li span {
+    font-size: 16px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.outfit-list .all-outfits-link {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.outfit-list .all-outfits-link a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.outfit-list .all-outfits-link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cuerpo {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.parallax-section {
+    background-image: url('../img/img-parallax-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.parallax-content {
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.parallax-content p {
+    font-size: 1.5rem;
+}
+
+.seccion-explica {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo-explica {
+    color: white;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.texto-explica {
+    color: white;
+    margin-left: 0;
+}
+
+.contenedor-img-explica {
+    display: flex;
+    justify-content: center;
+}
+
+.img-explica {
+    max-height: 230px;
+    border-radius: 3%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.carousel-item img {
+    max-height: 370px;
+    object-fit: cover;
+}
+
+.carousel-logo {
+    position: absolute;
+    max-width: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-caption img {
+    max-width: 150px;
+    margin: auto;
+}
+
+.seccion-pregunta{
+    padding: 40px;
+}
+
+.titulo-pregunta{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitulo-pregunta{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.texto-pregunta{
+    color: white;
+    text-align: center;
+}
+
+
+.contenedor-boton-pregunta {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-boton-pregunta form {
+    margin: 0 10px;
+}
+
+
+.boton-pregunta{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.boton-pregunta:hover{
+    background-color: gray
+}
+
+
+
+footer{
+    padding-top: 50px;
+}

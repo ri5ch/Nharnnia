@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cuerpo {
+    background-image: url('../img/img-carousel-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+}
+
+.contenedor-titulo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.logo-titulo {
+    height: 100px;
+    width: 110px;
+    margin-right: 10px;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+}
+
+.contenedor-login {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-login {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+}
+
+.contenedor-boton-login{
+    margin-top: 30px;
+}
+
+.boton-login{
+    height: 40px;
+    width: 125px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.boton-login:hover{
+    background-color: rgb(92, 88, 88);
+}
+
+.contenedor-registrarse {
+    text-align: center;
+    margin-top: 20px;
+}
